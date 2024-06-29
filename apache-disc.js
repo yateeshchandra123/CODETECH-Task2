@@ -1,12 +1,3 @@
-/*
-
-Author: DZONERZY
-
-Apache-Disclosure
-
-This plugin try to find non standard Apache Server Header
-
-*/
 
 apache = Scanner.registerPlugin("Apache-Disc", "Try to check for non standard Apache Server Header", ScanType.RISK_NOT_INVASIVE)
 
